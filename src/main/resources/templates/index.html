@@ -5,6 +5,7 @@
   <title>Taming Thymeleaf</title></head>
 <body>
 <h1 th:text="${pageTitle}">Taming Thymeleaf</h1>
+<h2 th:text="${__${title}__}"></h2>
 <div>
   <ul>
     <li th:each="scientist : ${scientists}">

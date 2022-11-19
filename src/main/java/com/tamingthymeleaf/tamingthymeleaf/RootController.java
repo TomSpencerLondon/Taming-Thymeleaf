@@ -12,6 +12,7 @@ public class RootController {
   @GetMapping public String index(Model model) {
     model.addAttribute("pageTitle", "Taming Thymeleaf");
     model.addAttribute("scientists", List.of("Albert Einstein", "Niels Bohr", "James Clerk Maxwell"));
+    model.addAttribute("title", "scientists");
     return "index";
 
   }
