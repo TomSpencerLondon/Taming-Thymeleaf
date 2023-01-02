@@ -2,7 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Taming Thymeleaf</title></head>
+  <title>Taming Thymeleaf</title>
+  <link rel="stylesheet" th:href="@{/css/application.css}">
+</head>
 <body>
 <h1 th:text="${pageTitle}">Taming Thymeleaf</h1>
 <h2 th:text="${__${title}__}"></h2>
